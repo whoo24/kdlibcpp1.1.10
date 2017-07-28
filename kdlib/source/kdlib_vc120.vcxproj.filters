@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="win\dbgeng.cpp">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\dbgmem.cpp">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\dbgmgr.cpp">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\dbgmod.cpp">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\sympath.cpp">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="windbg\windbg.cpp">
+      <Filter>windbg</Filter>
+    </ClCompile>
+    <ClCompile Include="dia\diaload.cpp">
+      <Filter>dia</Filter>
+    </ClCompile>
+    <ClCompile Include="dia\diadata.cpp">
+      <Filter>dia</Filter>
+    </ClCompile>
+    <ClCompile Include="dia\diawrapper.cpp">
+      <Filter>dia</Filter>
+    </ClCompile>
+    <ClCompile Include="dia\symexport.cpp">
+      <Filter>dia</Filter>
+    </ClCompile>
+    <ClCompile Include="customtypes.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="dbgio.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="disasm.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="memaccess.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="module.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="stack.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="typedvar.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="typeinfo.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="udtfiled.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="processmon.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="win\breakpoint.cpp">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\cpucontext.cpp">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="dataaccessor.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="win\processimpl.cpp">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\autoswitch.cpp">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win\liveprocess.cpp">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="clang\clang.cpp">
+      <Filter>clang</Filter>
+    </ClCompile>
+    <ClCompile Include="win\strconvert.cpp">
+      <Filter>win</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="..\include\kdlib\cpucontext.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kdlib\dbgcallbacks.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kdlib\dbgengine.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kdlib\dbgio.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kdlib\dbgtypedef.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kdlib\disasm.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kdlib\disasmengine.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kdlib\eventhandler.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kdlib\exceptions.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kdlib\kdlib.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kdlib\memaccess.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kdlib\module.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kdlib\scope.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kdlib\stack.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kdlib\symengine.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kdlib\typedvar.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kdlib\typeinfo.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kdlib\variant.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kdlib\windbg.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="win\dbgmgr.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClInclude Include="win\exceptions.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClInclude Include="dia\diacallback.h">
+      <Filter>dia</Filter>
+    </ClInclude>
+    <ClInclude Include="dia\diawrapper.h">
+      <Filter>dia</Filter>
+    </ClInclude>
+    <ClInclude Include="moduleimp.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="typedvarimp.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="typeinfoimp.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="udtfield.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="processmon.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kdlib\breakpoint.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="win\cpucontextimpl.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClInclude Include="win\threadctx.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kdlib\dataaccessor.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="dataaccessorimpl.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\kdlib\process.h">
+      <Filter>kdlib/include</Filter>
+    </ClInclude>
+    <ClInclude Include="win\autoswitch.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClInclude Include="stackimpl.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="strconvert.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="clang\clang.h">
+      <Filter>clang</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="kdlib/include">
+      <UniqueIdentifier>{dd7a9e28-b943-4573-8b0e-3d656091727d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win">
+      <UniqueIdentifier>{5d1c5ffb-f64c-4463-9bcc-54e3e05cd5bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windbg">
+      <UniqueIdentifier>{5303af8a-3915-4e62-969a-9f2641e35085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dia">
+      <UniqueIdentifier>{9cfdff98-aa2a-44de-88f2-79a833c08925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{7161a918-e1c8-4242-b320-562306844fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost">
+      <UniqueIdentifier>{b909802d-92bb-4755-8e59-03fe7a4ed798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="clang">
+      <UniqueIdentifier>{322bb171-1fe3-462d-9134-28d379e73888}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.kdlib_vc120.config" />
+  </ItemGroup>
+</Project>
