@@ -27,12 +27,12 @@
 
     <PropertyGroup Condition=" '$(OS)' == 'Windows_NT'">
         <!-- Windows specific commands -->
-        <NuGetToolsPath>$([System.IO.Path]::Combine($(SolutionDir), ".nuget"))</NuGetToolsPath>
+        <NuGetToolsPath>$([System.IO.Path]::Combine($(SolutionDir), "packages\NuGet.CommandLine.4.1.0\tools"))</NuGetToolsPath>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(OS)' != 'Windows_NT'">
         <!-- We need to launch nuget.exe with the mono command if we're not on windows -->
-        <NuGetToolsPath>$(SolutionDir).nuget</NuGetToolsPath>
+        <NuGetToolsPath>$(SolutionDir)packages\NuGet.CommandLine.4.1.0\tools</NuGetToolsPath>
     </PropertyGroup>
 
     <PropertyGroup>

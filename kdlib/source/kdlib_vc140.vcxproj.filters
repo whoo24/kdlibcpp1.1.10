@@ -221,9 +221,6 @@
     <Filter Include="common">
       <UniqueIdentifier>{7161a918-e1c8-4242-b320-562306844fe3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="boost">
-      <UniqueIdentifier>{b909802d-92bb-4755-8e59-03fe7a4ed798}</UniqueIdentifier>
-    </Filter>
     <Filter Include="clang">
       <UniqueIdentifier>{322bb171-1fe3-462d-9134-28d379e73888}</UniqueIdentifier>
     </Filter>

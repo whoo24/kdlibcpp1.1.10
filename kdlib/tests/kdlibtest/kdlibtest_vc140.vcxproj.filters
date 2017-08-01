@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="gmock\gmock-gtest-all.cc" />
+    <ClCompile Include="kdlibtest.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="..\comdate\testvars.cpp">
+      <Filter>testcases\testdata</Filter>
+    </ClCompile>
+    <ClCompile Include="..\comdate\testfunc.cpp">
+      <Filter>testcases\testdata</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="breakhandler.h">
+      <Filter>testcases</Filter>
+    </ClInclude>
+    <ClInclude Include="cputest.h">
+      <Filter>testcases</Filter>
+    </ClInclude>
+    <ClInclude Include="memorytest.h">
+      <Filter>testcases</Filter>
+    </ClInclude>
+    <ClInclude Include="moduletest.h">
+      <Filter>testcases</Filter>
+    </ClInclude>
+    <ClInclude Include="stacktest.h">
+      <Filter>testcases</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\test\testvars.h">
+      <Filter>testcases\testdata</Filter>
+    </ClInclude>
+    <ClInclude Include="processtest.h">
+      <Filter>testcases</Filter>
+    </ClInclude>
+    <ClInclude Include="procfixture.h">
+      <Filter>testfixtures</Filter>
+    </ClInclude>
+    <ClInclude Include="varianttest.h">
+      <Filter>testcases</Filter>
+    </ClInclude>
+    <ClInclude Include="typeinfotest.h">
+      <Filter>testcases</Filter>
+    </ClInclude>
+    <ClInclude Include="typedvartest.h">
+      <Filter>testcases</Filter>
+    </ClInclude>
+    <ClInclude Include="basefixture.h">
+      <Filter>testfixtures</Filter>
+    </ClInclude>
+    <ClInclude Include="eventhandlertest.h">
+      <Filter>testcases</Filter>
+    </ClInclude>
+    <ClInclude Include="eventhandlermock.h">
+      <Filter>testfixtures</Filter>
+    </ClInclude>
+    <ClInclude Include="disasmtest.h">
+      <Filter>testcases</Filter>
+    </ClInclude>
+    <ClInclude Include="targettest.h">
+      <Filter>testcases</Filter>
+    </ClInclude>
+    <ClInclude Include="memdumpfixture.h">
+      <Filter>testfixtures</Filter>
+    </ClInclude>
+    <ClInclude Include="winapitest.h">
+      <Filter>testcases</Filter>
+    </ClInclude>
+    <ClInclude Include="crttest.h">
+      <Filter>testcases</Filter>
+    </ClInclude>
+    <ClInclude Include="regtest_x64.h">
+      <Filter>testcases</Filter>
+    </ClInclude>
+    <ClInclude Include="clangtest.h">
+      <Filter>testcases</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="testcases">
+      <UniqueIdentifier>{47d99921-f1bc-4f46-a291-3b1651ca1163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testfixtures">
+      <UniqueIdentifier>{f2d12c59-7d69-4aa8-baa8-dc68e1e3b881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testcases\testdata">
+      <UniqueIdentifier>{617ec5ef-8b76-49d2-b598-1ffc78b37637}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
